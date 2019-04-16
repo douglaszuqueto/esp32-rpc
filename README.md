@@ -45,6 +45,27 @@ Fonte: [Wikédia](https://pt.wikipedia.org/wiki/Chamada_de_procedimento_remoto)
 
 A fins de estudo, este projeto terá suporte a 2 protocolos que uso no dia a dia, são eles: HTTP e MQTT
 
+Toda requisição para um método RPC segue no formato JSON(assim como a resposta também).
+
+* Request
+```bash
+{
+	"method": "Nome.Metodo",
+	"params": {
+		"key": "value"
+	}
+}
+```
+
+* Response
+```bash
+{
+  "method": "Nome.Metodo",
+  "data": {
+    "key": "value"
+  }
+}
+```
 ### HTTP
 
 ![img](https://raw.githubusercontent.com/douglaszuqueto/esp32-rpc/master/.github/esp32-rpc-http-v1.png)
