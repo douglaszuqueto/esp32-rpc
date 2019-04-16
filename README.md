@@ -50,10 +50,10 @@ Toda requisição para um método RPC segue no formato JSON(assim como a respost
 * Request
 ```bash
 {
-	"method": "Nome.Metodo",
-	"params": {
-		"key": "value"
-	}
+  "method": "Nome.Metodo",
+  "params": {
+    "key": "value"
+  }
 }
 ```
 
