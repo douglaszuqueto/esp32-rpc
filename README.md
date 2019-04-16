@@ -2,6 +2,17 @@
 
 Comunicação remota utilizando RPC e ESP32.
 
+## Índice
+
+* [Introdução](#introdução)
+* [RPC](#rpc)
+* [Dashboard - Webapp](#dashboard---webapp)
+* [Comandos](#comandos)
+* [Arquitetura](#arquitetura)
+  * [HTTP](#http)
+  * [MQTT](#mqtt)
+* [Referências](#referências)
+
 ## Introdução
 
 Esse projeto tem como objetivo estudar e explorar técnicas utilizando RPC como meio de comunicação em cima do ESP32.
@@ -147,3 +158,5 @@ mosquitto_pub -h 192.168.0.150 -t esp32/rpc/request -m '{"method":"Led.Toggle","
 
 * [Mongoose-os](https://mongoose-os.com/docs/mongoose-os/userguide/rpc.md)
 * [ThingsBoard](https://thingsboard.io/docs/user-guide/rpc/)
+* [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServe)
+* [ArduinoJSON](https://arduinojson.org/)
