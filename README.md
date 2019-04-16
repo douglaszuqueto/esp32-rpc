@@ -6,7 +6,7 @@ Comunicação remota utilizando RPC e ESP32.
 
 Esse projeto tem como objetivo estudar e explorar técnicas utilizando RPC como meio de comunicação em cima do ESP32.
 
-Essa vontade de implementar algo surgiu a algum tempo atrás quando teste o Mongoose-os no ESP32, onde esse meio de comunicação era disponível através do binário do serviço como também na dashboard do mesmo.
+Essa vontade de implementar algo surgiu a algum tempo atrás quando testei o Mongoose-os no ESP32, onde esse meio de comunicação era disponível através do binário(mos) do serviço como também na dashboard do mesmo.
 
 Portanto resolvi pesquisar um pouco mais sobre o tema a fim de curiosidade e como de costume resolvi fazer algumas implementações simples porém com um contexto que case com a vida real.
 
@@ -17,6 +17,14 @@ Chamada remota de procedimento (RPC, acrônimo de Remote Procedure Call) é uma 
 RPC é uma tecnologia popular para a implementação do modelo cliente-servidor de computação distribuída. Uma chamada de procedimento remoto é iniciada pelo cliente enviando uma mensagem para um servidor remoto para executar um procedimento específico. Uma resposta é retornada ao cliente. Uma diferença importante entre chamadas de procedimento remotas e chamadas de procedimento locais é que, no primeiro caso, a chamada pode falhar por problemas da rede. Nesse caso, não há nem mesmo garantia de que o procedimento foi invocado.
 
 Fonte: [Wikédia](https://pt.wikipedia.org/wiki/Chamada_de_procedimento_remoto)
+
+## Dashboard - webapp
+
+Assim que possível vou liberar o webapp no repositório citado abaixo para que fique mais fácil ver as coisas fluindo.
+
+[Repositório](https://github.com/douglaszuqueto/esp32-ota)
+
+![img](https://raw.githubusercontent.com/douglaszuqueto/esp32-rpc/master/.github/webapp-v1.png)
 
 ## Comandos
 
